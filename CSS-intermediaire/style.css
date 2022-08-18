@@ -10,5 +10,51 @@ display: flex; justify-content: space-between; align-items: center; height: 60px
 }
 main{ height: calc(100vh-70px); display:flex; background: #f9f9f9; }
 
-/* Side bar */
-.
+/* Sidebar */
+.side-bar { height : 100%; width: 17%; background-color: white; overflow-y: hidden; }
+
+@media (max-width: 768px) {
+.side-bar{display: none;}    
+}
+.left{
+    display: flex;
+    text-align: center;
+}
+
+.left #menu{
+    padding: 0  7px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+}
+
+.search form {
+    display: flex;
+    border: #ddd 1px solid;
+    height: 45px;
+}
+.search input{
+    width: 600px;
+    padding: 10px;
+    border: 0px;
+    height: 100%;
+    border-radius: 2px 0 0 2px;
+}
+.search button{
+    height:100%;
+    width: 60px;
+    border: none;
+}
+
+.mic{
+    margin-top: 10px;
+}
+
+.material-icons {
+    color: rgb(100, 100, 100);
+    padding: 0 7px;
+    cursor: pointer;
+}
+
