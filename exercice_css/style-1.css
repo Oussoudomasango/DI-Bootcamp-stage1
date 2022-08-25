@@ -1,6 +1,62 @@
-p{
+body{
+    width: 1000px; background-color: whitesmoke; overflow: scroll; overflow-wrap: break-word ;
+}
+.head{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(137, 185, 137);
+    border: solid 3px rgb(0, 116, 0);
+    margin: 2% 30%;
+    display: inline-block;
+}
+div.un{
+    font-weight: 900;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+.head_p{
+    padding:0% 4%;
+    font-style: italic;
     text-align: justify;
     text-decoration: underline;
-    text-decoration: orangered;
-    te
+    color:  rgba(136, 84, 65, 0.856);
+}
+.bleu{
+    color: blue;
+}
+.rose{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    color: white;
+    background-color: fuchsia ;
+}
+.bleu_clair{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    background-color: mediumturquoise;
+    margin: 1% 3%;
+}
+.parent{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    border: 2px solid black);
+border
+}
+.bleu_d{
+    position: relative;
+    background-color: blue;
+    width: 25%;
+    height: 125px;
+
+}
+.orange{
+    position: relative;
+    background-color: orange;
+    width: 25%;
+    height: 130px;
+    top: -118px;
+    left: 7px;
 }
