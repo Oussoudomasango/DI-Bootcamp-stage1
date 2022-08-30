@@ -15,12 +15,6 @@ fruits[1]=fruits[2];
 fruits[2]=val;
 console.log(fruits);
 
-/*
-replace()
-concat()
-toUpperCase()
-trim()
-charAt()*/
 
 /* exercice 2*/
 
